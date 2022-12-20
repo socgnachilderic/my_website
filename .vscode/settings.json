@@ -1,0 +1,12 @@
+{
+  "rust-analyzer.imports.group.enable": true,
+  "emmet.includeLanguages": {
+    "rust": "html",
+  },
+  "[rust]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+  }
+}
