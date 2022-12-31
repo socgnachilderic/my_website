@@ -691,7 +691,9 @@ dependencies = [
 name = "frontend"
 version = "0.1.0"
 dependencies = [
+ "gloo",
  "wasm-logger",
+ "web-sys",
  "yew",
  "yew-router",
 ]

@@ -5,6 +5,7 @@ use yew_router::prelude::*;
 
 use routes::*;
 
+mod components;
 mod pages;
 mod routes;
 

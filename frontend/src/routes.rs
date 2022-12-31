@@ -1,7 +1,8 @@
 use yew::{html, Html};
 use yew_router::Routable;
 
-use crate::pages::{BlogPage, HomePage};
+use crate::pages::blog_page::BlogPage;
+use crate::pages::home_page::HomePage;
 
 #[derive(Routable, PartialEq, Eq, Clone)]
 pub enum Route {
